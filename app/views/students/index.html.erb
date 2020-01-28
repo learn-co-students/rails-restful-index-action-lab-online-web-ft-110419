@@ -1,2 +1,9 @@
 <h1>index page here!</h1>
-<h2>Lindsey</h2>
+<%Student.all.each do |st| %>
+    <ul>
+        <li> <%=st.to_s%>
+        </li>
+    </ul>
+
+    <%end%>
+<%# <h2>Lindsey</h2> %>
